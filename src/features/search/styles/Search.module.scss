@@ -1,0 +1,36 @@
+.search {
+  display: flex;
+  align-items: center;
+  flex:  0 1 350px;
+  gap: 20px;
+
+  &__wrapper {
+    display: inline-block;
+    width: auto;
+    height: auto;
+
+    &_image {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &__input {
+    width: 100%;
+    font-size: $fz-14;
+    font-weight: $font-medium;
+    color: black;
+    border-bottom:1px solid $gray-7d;
+
+    &::placeholder {
+      font-size: $fz-12;
+      font-weight: $font-light;
+      color: $gray-7d;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}

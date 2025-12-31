@@ -1,0 +1,14 @@
+.burger {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 7px 3px;
+
+  &__line {
+    max-width: 30px;
+    width: 100px;
+    height: 2px;
+    background-color: $black-90;
+    border-radius: 100%;
+  }
+}

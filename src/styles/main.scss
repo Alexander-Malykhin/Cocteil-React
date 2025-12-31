@@ -1,0 +1,7 @@
+@use './settings/reset';
+@use './settings/fonts' as *;
+@use './settings/colors' as *;
+
+* {
+  font-family: $family_main;
+}
