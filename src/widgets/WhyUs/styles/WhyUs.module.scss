@@ -62,4 +62,16 @@
   }
 }
 
-
+.section__circle_why {
+  &:before {
+    content: '';
+    position: absolute;
+    background-image: url("../../../assets/ellipse.png");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 430px;
+    right: 0;
+    top: 0;
+    transform: translateY(-220px);
+  }
+}

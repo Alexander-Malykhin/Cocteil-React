@@ -1,0 +1,1 @@
+export {default as SaleSlider} from './ui/SaleSlider.tsx';

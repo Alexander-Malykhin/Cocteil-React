@@ -10,12 +10,14 @@ interface MainSectionLayoutInterface {
     children: ReactNode,
     title: string,
     isAccent: boolean,
-    accentText?: string
+    accentText?: string,
+    isCircle:boolean,
+    circleClass?:string
 }
 
-const MainSectionLayout: FC<MainSectionLayoutInterface> = ({children, title, isAccent, accentText}) => {
+const MainSectionLayout: FC<MainSectionLayoutInterface> = ({children, title, isAccent, accentText,isCircle,circleClass}) => {
         return (
-            <section className={styles.section}>
+            <section className={`${styles.section} ${isCircle ? circleClass : ""}`}>
                 <MainLayout>
                     <div className={styles.section__content}>
                         <MainTitleSection

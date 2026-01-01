@@ -1,13 +1,15 @@
 import {type FC} from 'react';
-//components
+//widgets
 import {Header} from "@widgets/Header";
 import {WhyUs} from "@widgets/WhyUs";
+import {SaleSlider} from "@widgets/SaleSlider";
 
 const HomePage: FC = () => {
     return (
         <>
             <Header/>
             <WhyUs/>
+            <SaleSlider/>
         </>
     );
 };
