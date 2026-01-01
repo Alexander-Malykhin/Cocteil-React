@@ -90,3 +90,7 @@ legend {
 input[type='file'] {
   max-width: 100%;
 }
+
+::-webkit-scrollbar {
+  width: 0;
+}
