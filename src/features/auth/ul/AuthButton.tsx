@@ -9,7 +9,7 @@ const AuthButton: FC = () => {
         <IconButton onClick={() => 1}>
             <img
                 src={iconAuth}
-                alt="basket-icon"
+                alt="auth-icon"
             />
         </IconButton>
     );

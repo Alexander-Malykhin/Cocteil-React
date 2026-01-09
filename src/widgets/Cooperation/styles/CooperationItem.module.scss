@@ -1,0 +1,20 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 22px;
+  max-width: 225px;
+
+  &__title {
+    font-size: $fz-20;
+    color: $black-90;
+    font-weight: $font-regular;
+  }
+
+  &__text {
+    font-size: $fz-12;
+    color: $gray-7d;
+    font-weight: $font-light;
+  }
+}

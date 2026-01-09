@@ -1,0 +1,30 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  &__text {
+    font-size: $fz-16;
+    font-weight: $font-light;
+    color: $gray-7d;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    &_title {
+      font-size: $fz-20;
+      color: $black-90;
+      font-weight: $font-regular;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid $gray-7d;
+
+    &_title {
+      font-size: $fz-20;
+      font-weight: $font-regular;
+      color: $black-90;
+    }
+
+    &_button {
+      padding: 2px;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        border-radius: 100%;
+        background-color: $color-primary;
+        height: 1px;
+      }
+
+      &:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        border-radius: 100%;
+        background-color: $color-primary;
+        height: 1px;
+        transform: rotate(90deg);
+      }
+    }
+  }
+}
+
+
+.section__circle_questions {
+  &:before {
+    content: '';
+    position: absolute;
+    background-image: url("../../../assets/ellipse.png");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 430px;
+    right: 0;
+    top: 0;
+    transform: translateY(-220px);
+  }
+}

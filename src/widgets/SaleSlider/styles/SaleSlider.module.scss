@@ -1,3 +1,23 @@
 .content {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 278px;
+  column-gap: 80px;
 
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  padding-bottom: 10px;
+
+  margin-right: calc((100vw - $w_1180) / -2);
+  padding-right: calc((100vw - $w_1180) / 2);
+
+  scroll-behavior: smooth;
+  scroll-snap-type: x proximity;
+
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: none;
 }
+

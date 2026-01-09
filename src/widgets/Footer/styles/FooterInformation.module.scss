@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__title {
+    font-size: $fz-20;
+    font-weight: $font-regular;
+    color: $white-soft;
+  }
+
+  &__text {
+    font-size: $fz-12;
+    font-weight: $font-light;
+    color: $white-soft;
+  }
+}

@@ -1,0 +1,18 @@
+.footer {
+  margin-top: 150px;
+  background-color: $color-primary;
+  padding: 80px 0;
+  position: relative;
+
+  &__content {
+    display: grid;
+    align-items: flex-start;
+    gap: 95px;
+    grid-template-columns: 124px 124px  minmax(124px, 250px) minmax(124px, 202px) 84px;
+  }
+
+  &__logo {
+    display: flex;
+    align-self: flex-end;
+  }
+}

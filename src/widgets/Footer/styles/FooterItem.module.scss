@@ -1,0 +1,25 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 124px;
+  align-items: flex-start;
+  gap: 20px;
+
+  &__title {
+    font-size: $fz-20;
+    font-weight: $font-regular;
+    color: $white-soft;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__link {
+    font-size: $fz-12;
+    font-weight: $font-regular;
+    color: $white-soft;
+  }
+}

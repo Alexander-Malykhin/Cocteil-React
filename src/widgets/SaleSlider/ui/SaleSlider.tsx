@@ -3,8 +3,12 @@ import {type FC} from 'react';
 import styles from '../styles/SaleSlider.module.scss';
 //widgets
 import {MainSectionLayout} from "@widgets/MainSectionLayout";
+import ButtonSlider from "@widgets/SaleSlider/ui/ButtonSlider.tsx";
+//entities
+import ProductCard from "@/entities/product/ui/ProductCard.tsx";
 
 const SaleSlider: FC = () => {
+
     return (
         <MainSectionLayout
             title={'Успей купить!'}
@@ -13,7 +17,14 @@ const SaleSlider: FC = () => {
             accentText={'Акции'}
         >
             <div className={styles.content}>
-                111
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ButtonSlider/>
             </div>
         </MainSectionLayout>
     );

@@ -1,0 +1,19 @@
+.button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translateY(-132px);
+  cursor: pointer;
+
+  padding: 20px 24px;
+  background-color: $white-soft;
+  border: 1px solid $primary-40;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__image {
+      max-width: 45px;
+  }
+}

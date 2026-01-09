@@ -23,6 +23,7 @@ export default defineConfig({
                 additionalData: `
                     @use "@/styles/settings/colors.scss" as *;
                     @use "@/styles/settings/fonts.scss" as *;
+                    @use "@/styles/settings/containers.scss" as *;
                 `
             }
         }

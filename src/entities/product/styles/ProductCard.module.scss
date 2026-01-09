@@ -1,0 +1,63 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+
+  &__image {
+    max-width: 278px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 10px 0 $primary-20;
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+    &_row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      &:last-child {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+    }
+  }
+
+  &__name {
+    color: $gray-7d;
+    font-weight: $font-regular;
+    font-size: $fz-12;
+  }
+
+  &__price {
+    font-size: $fz-14;
+    font-weight: $font-regular;
+    color: $black-90;
+
+    &_discount {
+      font-size: $fz-12;
+      font-weight: $font-light;
+      color: $gray-7d;
+      text-decoration: line-through;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 12px;
+  }
+}

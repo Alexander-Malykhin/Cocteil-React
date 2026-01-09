@@ -1,0 +1,22 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+
+  &__reviews {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    max-width: 998px;
+    width: 100%;
+  }
+}
