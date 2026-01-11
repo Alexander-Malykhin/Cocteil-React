@@ -10,6 +10,7 @@ import iconLastBanner from '../assets/banner/last-banner.png';
 import HeaderBurgerButton from "@widgets/Header/ui/HeaderBurgerButton.tsx";
 import HeaderSearch from "@widgets/Header/ui/HeaderSearch.tsx";
 import HeaderActions from "@widgets/Header/ui/HeaderActions.tsx";
+import {Navigation} from "@widgets/Navigation";
 //features
 import CatalogButton from "@features/catalog/ui/CatalogButton.tsx";
 
@@ -57,6 +58,7 @@ const Header: FC = () => {
                         <CatalogButton/>
                     </div>
                 </div>
+                <Navigation/>
             </MainLayout>
         </header>
     );
